@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    background-color: teal;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+    border: 5px solid white;
+    /* height: 50px; */
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.col-2 {
+    flex: 2;
+    color: white;
+    padding: 10px;
+    border: 5px solid white;
+}
+
+.col-3 {
+    flex: 3;
+    color: white;
+    padding: 10px;
+    border: 5px solid white;
+}
